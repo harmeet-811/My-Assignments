@@ -1,0 +1,129 @@
+body{
+    border: solid 2px black;
+    outline: solid 10px rgb(247, 247, 171);
+}
+
+.header{
+    margin-top:2%;
+    width: 100%;
+    color: rgb(8, 193, 8);
+    font-family: sans-serif;
+}
+
+.logo, .logoright{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+
+.logo{
+    width: 65%;
+}
+
+.logo p{
+    font-size: 45px;
+}
+
+.logo img{
+    margin-top: 2%;
+    width:150px;
+    float:left;
+    margin-right: 20px;
+    vertical-align:middle;
+}
+
+.logo p{
+    margin-top: 2%;
+}
+
+.logo p span{
+    font-size: 90px;
+    margin-bottom: 5%;
+}
+
+.logoright{
+    width:22%;
+    margin-top: 2%;
+    margin-right: 0%;
+    text-align: right;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.section{
+    display: flex;
+    margin-left: 3%;
+}
+
+.bluebox{
+    width: 25%;
+    height: 75%;
+    padding-top: 2px;
+    font-size: 25px;
+    color: white;
+    margin-right: 1%;
+    background-color: rgb(122, 196, 241);
+}
+
+.bluebox-p{
+    list-style-type: none;
+    padding-left: 0%;
+    display: block;
+
+}
+
+.bluebox-p li{
+    margin-left: 5%;
+    padding-bottom: 18%;
+}
+
+.right{
+    width: 67%;
+    margin-bottom: 0;
+}
+
+.r-span{
+    color: white;
+    background-color: rgb(3, 3, 76);
+    padding: 1% 1% 1% 4%;
+    font-size: 40px;
+    letter-spacing: 20px;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.right img{
+    float: right;
+    width: 35%;
+    margin-top: 2%;
+}
+
+.r-text{
+    font-size: 27px;
+}
+
+.r-hours{
+    color: white;
+    background-color:green;
+    padding: 1% 1% 1% 4%;
+    font-size: 40px;
+    letter-spacing: 20px;
+    width: 100%;
+}
+
+.r-ul{
+    font-size: 27px;
+    list-style-type:none;
+}
+
+.r-ul-span{
+    color: green;
+}
+
+footer{
+    margin: 0% 3%;
+    text-align: center;
+    background-color: rgb(3, 69, 3);
+    color:white;
+    padding: 7px;
+}
